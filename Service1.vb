@@ -17,7 +17,7 @@ Public Class Service1
 
         Dim DB_IP As String = ConfigurationManager.AppSettings("DB_IP")
 
-        'Return "Data Source=192.168.11.29;Initial Catalog= HL_ELearning_Doc;User ID=hladmin;Password=19763180;"
+        'Return "Data Source=;Initial Catalog= ;User ID=;Password=;"
         Return DB_IP
     End Function
 #End Region
